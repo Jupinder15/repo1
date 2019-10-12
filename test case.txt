@@ -1,0 +1,178 @@
+GUI and Functional issues found in the Farmer UI Portal for Summit Holm Farm.
+
+1. Date picker accepts future dates.
+
+- Navigate to the homepage after login.
+- Go to pragnancy table and click on the date filter.
+- User is able to select future dates.
+
+2. Cow ID filter not showing results.
+
+- Navigate to the homepage after login.
+- Click on reproduction tab.
+- Click in '+' button to see all the data.
+- Click on any row to select a record.
+- Enter cow ID in the filter.
+- Click apply filter.
+- User will not get any data but it keeps loading.  
+
+3. User not able to see information of the cows that are lower in the table.
+
+- Navigate to the homepage after login.
+- Click on reproduction tab.
+- Click in '+' button to see all the data.
+- Scroll down and select a record.
+- To see the info about that particular cow, user has to scroll up. Cow info should always be pinned.
+
+4. Date picker is hidden.
+
+- Navigate to the homepage after login.
+- Click on reproduction tab.
+- Click in '+' button to see all the data.
+- Click on the date start date field.
+- The date picker is hidden and to see the information user has to scroll the page and again click in the field.
+
+5. DIM filter not functioning properly.
+
+- Navigate to the homepage after login.
+- Click on the '+' button to see all the records from pragnancy table.
+- Enter 0 in the DIM filter field
+- It sould show all the recors with DIM 0 but it is showing no records.
+
+6. Date filter in herd status table not working fine.
+
+- Navigate to the homepage after login.
+- Click on reproduction tab.
+- Click in '+' button to see all the data from the herd status table.
+- In the date field, enter some date range. It should show records from that range but it is showing all the records.
+
+7. Date picker monthly view is always hidden.
+
+- Navigate to the homepage after login.
+- Click on the '+' button to see all the records from pragnancy table.
+- Click on the end date filter to select a date.
+- Click on the month view. Months on the right side are always hidden behind the frame.
+
+8. Herd status and open tables are not loaded sometimes.
+
+- Navigate to the homepage after login.
+- Leave the page and do not do any activity for some time.
+- Again go back to the application and click on the reproduction tab.
+- Sometimes herd status and open table are not loaded.
+
+9. Keeps loading afer no activity.
+
+- Navigate to the homepage after login.
+- Leave the page and do not do any activity for some time.
+- Come back after 2 hours and click anything.
+- It keep loading unless you click something again.
+- Ideally, it should show a message that you are logged out due to inactivity.
+
+10. SomaDetect icon do not refresh when user is on homwpage.
+
+- Navigate to the homepage after login.
+- Do some activity on page or navigate between the pages.
+- Click on somaDetect icon, it will bring user to homepage. 
+- If user want to refresh the information on homepage, he can not do so by pressing icon.
+- He has to refresh it by browser refresh buton.
+
+11. Wrong record in herd status table.
+
+- Navigate to the homepage after login.
+- Click on reproduction tab.
+- Click in '+' button to see all the data from the herd status table.
+- Go to the last record.
+- This record has wrong date format.
+
+12. Alerts table results are not organized according to the milnk time.
+
+- Navigate to the homepage after login.
+- Visit the alerts table, the records are not organized according to time. All other tables are organized.
+
+13. User not able to save information without the phone number.
+
+- Navigate to the homepage after login.
+- Click on Account tab.
+- Save the info without phone number. It will say that the phone number field can not be empty. No field is marked mendatory.
+
+
+14. Phone number format issue.
+
+- Navigate to the homepage after login.
+- Click on Account tab.
+- In the phone number field, user can enter any number value. No format or limit is there.
+
+15. Sensor info not organized.
+
+- Navigate to the homepage after login.
+- Click on Account tab.
+- Go to bottom of the page and see sensor info. The stalls are not organized.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
